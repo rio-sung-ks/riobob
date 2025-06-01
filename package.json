@@ -1,0 +1,53 @@
+{
+  "name": "riobob",
+  "version": "1.2.2",
+  "description": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@react-native-camera-roll/camera-roll": "^7.10.0",
+    "@react-navigation/native": "^7.1.6",
+    "canny-edge-detector": "^1.0.0",
+    "lint-staged": "^16.1.0",
+    "react-native": "0.78.0",
+    "react-native-cli": "2.0.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-permissions": "^5.2.6",
+    "react-native-vision-camera": "4.6.4",
+    "zustand": "5.0.4"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.8.1",
+    "commitlint": "^19.8.1",
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^10.1.5",
+    "prettier": "3.5.3",
+    "vite": "^6.3.5",
+    "vitest": "3.1.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rio-sung-ks/riobob.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rio-sung-ks/riobob/issues"
+  },
+  "homepage": "https://github.com/rio-sung-ks/riobob#readme"
+}

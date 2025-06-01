@@ -1,0 +1,26 @@
+export default {
+
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "objectWrap": "collapse-preserve",
+  "bracketSpacing": true,
+  "semi": true,
+  "experimentalOperatorPosition": "end",
+  "experimentalTernaries": true,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "singleAttributePerLine": true,
+  "htmlWhitespaceSensitivity": "strict",
+  "vueIndentScriptAndStyle": false,
+  "proseWrap": "preserve",
+  "insertPragma": false,
+  "printWidth": 80,
+  "requirePragma": false,
+  "tabWidth": 2,
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "rangeStart": 0,
+  "rangeEnd": 0
+};
